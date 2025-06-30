@@ -1,0 +1,45 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the buttons */
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button:disabled {
+    background-color: #d3d3d3; /* Light gray when disabled */
+    cursor: not-allowed;
+}
+
+/* Styling for the result and score sections */
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score {
+    font-size: 1.3em;
+    margin-top: 20px;
+}
